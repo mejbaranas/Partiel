@@ -1,9 +1,4 @@
-body{
-    font-family: "Outfit", sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box; 
-}
+
 .navbar{
     display: flex ;
     justify-content: space-around;
@@ -15,20 +10,29 @@ border: none;
 background-color: rgba(60, 218, 95, 1);
 color: white;
 }
+.botona{
+    border: none;
+    border-radius: 20%;
+    display: flex;
+    gap: 5px;
+}
 .navgauche{
     display: flex;
     align-items: center;
     gap: 10px;
 }
+.anas{
+    text-align: center;
+}
 .navbar2{
 display: flex;
-justify-content: space-between;
+gap :90px;
+justify-content: space-around;
 background-color: rgba(214, 234, 249, 1);
 width: 1440px;
 height: 50px;
 top: 84px;
 border-bottom-width: 1px;
-
 
 }
 .navbar2gauche{
@@ -81,6 +85,7 @@ border: none;
 .Get{
 color: red;
 }
+
 .sectiongauche{
     display: flex;
 }
@@ -101,7 +106,7 @@ color: red;
 }
 .trente {
     background-color: rgba(214, 234, 249, 1);
-    width: 250px;
+    width: 280px;
 }
 .sec1gauche button{
     background-color: rgba(60, 218, 95, 1);
@@ -273,7 +278,12 @@ background-color: rgba(10, 38, 64, 1);
 .po{
     color: white;
 }
-    
+body{
+    font-family: "Outfit", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
 
 footer h1 {
     text-align: center;
