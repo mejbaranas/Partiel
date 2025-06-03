@@ -1,13 +1,49 @@
 body{
-    font-family: "DM Sans", sans-serif;
+    font-family: "Outfit", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
 }
 .navbar{
     display: flex ;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.navgauche button{
+border: none;
+background-color: rgba(60, 218, 95, 1);
+color: white;
+}
+.navgauche{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar2{
+display: flex;
+justify-content: space-between;
+background-color: rgba(214, 234, 249, 1);
+width: 1440px;
+height: 50px;
+top: 84px;
+border-bottom-width: 1px;
 
 
+}
+.navbar2gauche{
+background-color: white;
+display: flex;
+align-items: center;
+}
+.navbar2droite{
+    width: 56px;
+height: 47px;
+left: 1029px;
+border-top-right-radius: 47px;
+border-bottom-right-radius: 47px;
+
+    background-color: rgba(60, 218, 95, 1);
 }
 .list{
     list-style: none;
@@ -31,31 +67,48 @@ background-color: rgba(24, 67, 99, 1);
 color: white;
 border: none;
 }
+.shoop{
+    border: none;
+    background-color:  rgba(60, 218, 95, 1);
+    color: white;
+    border-radius: 10%;
+}
 .medical{
     text-align: center;
     color: rgba(10, 38, 64, 1);
 }
+
 .Get{
 color: red;
 }
 .sectiongauche{
     display: flex;
 }
+.Sectionune{
+    display: flex;
+    
+}
 .sec1gauche{
-    width:50%
+    width:50%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 .sec1droite{
     width: 50%;
 }
+.trente {
+    background-color: rgba(214, 234, 249, 1);
+    width: 250px;
+}
 .sec1gauche button{
     background-color: rgba(60, 218, 95, 1);
     color: white;
-    width: 154;
+    width: 154px;
     border: none;
-height: 45;
+height: 45px;
 top: 598px;
 left: 65px;
 border-radius: 10px;
@@ -63,19 +116,38 @@ gap: 10px;
 padding: 10px;
 
 }
+.section2{
+    display: flex;
+    gap:30px;
+    justify-content: space-around;
+}
 .partie2 {
     
 }
 .partie2haut {
 display: flex;
 gap: 10px;
+justify-content: center;
+align-items:center;
 }
 .partie2bas {
-    display: flexs;
+    display: flex;
+}
+.vert{
+    display: flex;
+    gap: 10px;
 }
 .vertt{
     background-color: rgba(60, 218, 95, 1);
     color: white;
+    width: 100 px;
+height: 100 px;
+top: 1124px;
+left: 738px;
+padding: 1rem ;
+border-radius: 5px;
+text-align: center;
+
 }
 .buy{
     border: none;
@@ -95,15 +167,26 @@ width: 50%;
 }
 .partie4droite{
 width: 50%;
+display: flex;
+align-items: center;
 }
-.partie3gauche{
+.helloimages{
+    width: 24px;
+height: 24px;
+
+}
+.partie3bas{
     display: flex;
-    flex direction: column;
-    gap:10px;
+    gap :20px;
 }
+
+
 .unlock{
     text-align: center;
      color: rgba(24, 67, 99, 1);
+}
+.partie5{
+    background-color: rgba(180, 254, 196, 1);
 }
 .partie6{
     display: flex;
@@ -112,41 +195,86 @@ width: 50%;
 width: 50%;
 }
 .partie6droite{
+    display: flex;
+    flex-direction: column;
     width:50%;
     display: flex;
     gap: 10px;
+    justify-content: center;
 
 }
+
 .partie6droite h1{
     color: rgba(24, 67, 99, 1);
 }
 .partie6droite button{
     color: white;
     background-color: rgba(60, 218, 95, 1);
+    border: none;
+width: 200px;
+height: 62px;
+gap: 13px;
+border-radius: 10%;
+
+}
+.photo1{
+    text-align: center;
 }
 .partie3droite{
     display: flex;
     flex direction: column;
     gap:10px;
 }
-.partie2basdroitegauche{
-display: flex;
+.partie3gauche{
+    display: flex;
     flex direction: column;
     gap:10px;
 }
-.partie2basdroitegauche{
-display: flex;
+.partie3gauche{
+  display: flex;
     flex direction: column;
-    gap:10px;
+    gap:10px;  
 }
-footer{
+.partie2bas{
+display: flex;
+justify-content: space-around;
+}
 
+.buy{
+ border: none;
+
+}
+.partie2basdroite{
+display: flex;
+gap: 20px;
+}
+.partie2basgauche{
+display: flex;
+gap:20px;
+}
+
+footer{
+background-color: rgba(10, 38, 64, 1);
 }
 .photosfooter{
     display: flex;
     gap: 10px;
     
 }
+
+.footerhaut {
+    display: flex;
+    justify-content: space-around;
+}
+.listfin{
+    list-style: none;
+    color: white;
+}
+.po{
+    color: white;
+}
+    
+
 footer h1 {
     text-align: center;
     color: white;
