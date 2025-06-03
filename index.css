@@ -87,6 +87,15 @@ left: 327.88px;
 border-radius: 72px;
 
 }
+.partie4{
+    display: flex;
+}
+.partie4gauche{
+width: 50%;
+}
+.partie4droite{
+width: 50%;
+}
 .partie3gauche{
     display: flex;
     flex direction: column;
