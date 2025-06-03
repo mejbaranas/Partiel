@@ -21,6 +21,16 @@ body{
     text-align: center;
     color: rgba(10, 38, 64, 1);
 }
+.from{
+    background-color: rgba(242, 151, 31, 1);
+    color: white;
+    border: none;
+}
+.Shopnow{
+background-color: rgba(24, 67, 99, 1);
+color: white;
+border: none;
+}
 .medical{
     text-align: center;
     color: rgba(10, 38, 64, 1);
@@ -76,4 +86,24 @@ top: 221.81px;
 left: 327.88px;
 border-radius: 72px;
 
+}
+.partie3gauche{
+    display: flex;
+    flex direction: column;
+    gap:10px;
+}
+.partie3droite{
+    display: flex;
+    flex direction: column;
+    gap:10px;
+}
+.partie2basdroitegauche{
+display: flex;
+    flex direction: column;
+    gap:10px;
+}
+.partie2basdroitegauche{
+display: flex;
+    flex direction: column;
+    gap:10px;
 }
