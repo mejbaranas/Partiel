@@ -21,6 +21,10 @@ body{
     text-align: center;
     color: rgba(10, 38, 64, 1);
 }
+.medical{
+    text-align: center;
+    color: rgba(10, 38, 64, 1);
+}
 .Get{
 color: red;
 }
@@ -47,5 +51,29 @@ left: 65px;
 border-radius: 10px;
 gap: 10px;
 padding: 10px;
+
+}
+.partie2 {
+    
+}
+.partie2haut {
+display: flex;
+gap: 10px;
+}
+.partie2bas {
+    display: flexs;
+}
+.vertt{
+    background-color: rgba(60, 218, 95, 1);
+    color: white;
+}
+.buy{
+    border: none;
+    color: rgba(24, 67, 99, 1);
+    width: 180;
+height: 40;
+top: 221.81px;
+left: 327.88px;
+border-radius: 72px;
 
 }
